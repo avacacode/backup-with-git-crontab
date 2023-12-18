@@ -10,7 +10,7 @@ Crontab + shell script to run git commands.
 > Crontab, short for cron table is a Unix command that creates a table or list of commands, each of which is to be executed by the operating system (OS) at a specified time and on a regular schedule. Crontab is used to create the crontab file (the list) and later used to change the previously created crontab file.
 
 
-# What is a Crontable
+# What is a Cron Job? 
 ```sh 
 * * * * * command(s)
 ^ ^ ^ ^ ^
@@ -23,4 +23,7 @@ Crontab + shell script to run git commands.
 ------------- Minute (0 - 59)
 ```
 
+## Some examples 
 
+* * * * * echo >> ~/avacacode/backup-with-git-crontab/example.txt
+* * * * * ~/avacacode/backup-with-git-crontab/sh
